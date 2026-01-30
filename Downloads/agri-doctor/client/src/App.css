@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #f6fff4 0%, #e8f5e8 100%);
+  color: #333;
+  min-height: 100vh;
+}
+
+.App {
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+
+.app-header h1 {
+  color: #2e7d32;
+  margin-bottom: 10px;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.subtitle {
+  color: #4caf50;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.app-header p {
+  color: #555;
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.app-main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
